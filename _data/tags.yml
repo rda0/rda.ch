@@ -1,0 +1,12 @@
+bash:
+  name: Bash
+jekyll:
+  name: Jekyll
+linux:
+  name: Linux
+photography:
+  name: Photography
+python:
+  name: Python
+windows:
+  name: Windows

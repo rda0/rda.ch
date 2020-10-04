@@ -1,0 +1,65 @@
+# Dependencies
+markdown:             kramdown
+highlighter:          rouge
+
+# Permalinks
+permalink:            pretty
+
+# Setup
+title:                rda
+tagline:              My personal blog
+description:          My personal blog – on random stuff.
+url:                  https://rda.ch
+baseurl:
+paginate:             5
+name:                 rda
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-gist
+
+# SEO
+social:
+  name:               rda
+  links:
+    - https://github.com/rda0
+    - https://matrix.to/#/@rda:phys.ethz.ch
+    - https://stackexchange.com/users/4007500/rda
+    - https://www.instagram.com/rda.img
+    - https://linkedin.com/in/svenmaeder
+
+# Custom vars
+about:
+  img:                rda_184px.png
+  text:               About text ...
+logo:                 rda_650px.png
+custom_pages:
+  feed:               /atom.xml
+email:                rda@ethz.ch
+github:
+  url:                https://github.com/rda0
+  repo:               https://github.com/rda0/rda.ch
+  display:            github.com/rda0
+instagram:
+  url:                https://www.instagram.com/rda.img
+  display:            instagram.com/rda.img
+stackexchange:
+  url:                https://stackexchange.com/users/4007500/rda
+  display:            stackexchange.com/users/4007500/rda
+matrix:
+  url:                https://matrix.to/#/@rda:phys.ethz.ch
+  display:            matrix.to/#/@rda:phys.ethz.ch
+
+excerpt_separator:    <!--more-->
+hyde_version:         2.1.0
+hyde_url:             http://hyde.getpoole.com
+hyde_repo:            https://github.com/poole/hyde
+show_related_posts:   false
+force_https:          false
+
+# Comments
+comments:
+  use_disqus:         false
+  use_googleplus:     false
+  disqus_shortname:   rda
