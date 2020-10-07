@@ -36,6 +36,8 @@
  * Update the foundational and global aspects of the page.
  */
 
+@import "../fonts/stylesheet.css";
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -49,7 +51,7 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -153,7 +155,7 @@ abbr[title] {
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: "Ubuntu Mono", Menlo, Monaco, "Courier New", monospace;
 }
 code {
   padding: .25em .5em;
@@ -198,7 +200,7 @@ pre code {
 
 /* Gist via GitHub Pages */
 .gist .gist-file {
-  font-family: Menlo, Monaco, "Courier New", monospace !important;
+  font-family: "Ubuntu Mono", Menlo, Monaco, "Courier New", monospace !important;
 }
 .gist .markdown-body {
   padding: 15px;
@@ -454,6 +456,6 @@ a.pagination-item:hover {
 
 /* Monospace font for archive */
 .archivemono {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: "Ubuntu Mono", Menlo, Monaco, "Courier New", monospace;
   font-size: 75%;
 }
