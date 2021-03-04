@@ -43,3 +43,23 @@ env/bin/pip install <module>
 env/bin/python3
 >>> import <module>
 ```
+
+## Alternatively install Python using pyenv
+
+Install dependencies:
+
+```bash
+apt install --no-install-recommends make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+```
+
+Install Python using [pyenv](https://github.com/pyenv/pyenv):
+
+```bash
+git clone https://github.com/pyenv/pyenv.git pyenv
+cd pyenv
+src/configure && make -C src
+export PYENV_ROOT="/path/to/pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+pyenv install 3.7.9
+versions/3.7.9/bin/python3 --version
+```
