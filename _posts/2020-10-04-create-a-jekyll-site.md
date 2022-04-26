@@ -15,7 +15,7 @@ This guide shows how to create this site.
 Install the required dependencies to run `ruby` and build `jekyll` (Debian/Ubuntu):
 
 ```bash
-apt install git ruby2.5 bundler ruby-full build-essential zlib1g-dev
+apt install git ruby bundler ruby-full build-essential zlib1g-dev
 ```
 
 Set up ruby environment and install jekyll:
@@ -27,6 +27,7 @@ echo "source 'https://rubygems.org'" > Gemfile
 echo "gem 'github-pages', group: :jekyll_plugins" >> Gemfile
 export GEM_HOME="${HOME}/gems"
 export PATH="${HOME}/gems/bin:${PATH}"
+gem install bundler
 bundle install
 ```
 
